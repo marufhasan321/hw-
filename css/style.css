@@ -1,0 +1,232 @@
+/* common css */
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    
+  }
+
+body{
+    font-family: var(--font-family);
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,ul,ol,p,span{
+    margin: 0;
+    padding: 0;
+}
+/* common css end */
+
+/* nav bar start */
+#navbar li a{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    color: #353535;
+    text-transform: uppercase;
+    padding: 18px 22px 5px;
+    position: relative;
+}
+
+#navbar li a::before {
+    content:"";
+    width: 0;
+    height: 1px;
+    background-color: #353535;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   transition: 0.3s;
+}
+
+#navbar li:hover a::before {
+    width: 100%;
+}
+/* nev bar end */
+
+/* banner ber start */
+#banner .contains{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+#banner .contains h4{
+padding: 120px 0 15px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+color: #353535;
+}
+#banner .contains h1{
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 64px;
+color: #353535;
+}
+#banner .contains p{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 180%;
+color: #353535;
+padding-top: 25px;
+}
+
+#banner .image img{
+    padding-top: 60px;
+}
+#banner .contact{
+    padding: 50px 0 65px;
+
+}
+#banner .contact a{
+    border: 1px solid black;
+    padding: 16px 0px 15px 32px;
+    border-radius: 16px;
+    color:#484848;
+    transition: 0.5s;
+    margin: 0 20px;
+}
+#banner .contact a i{
+    padding: 5px 33px 5px 11px;
+
+}
+#banner .contact a:hover{
+    background-color: #FFCC00;
+    color: #fff;
+    border: none;
+}
+
+#banner .contact .download{
+    padding: 16px 0px 17px 18px;
+
+    border-radius: 16px;
+    color: #484848;
+}
+#banner .download a{
+    padding: 16px 0px 17px 18px;
+
+}
+
+#banner .download a i{
+    padding: 22px 19px 23px 11px;
+}
+#banner .contains .follow{
+    padding-bottom: 144px;
+}
+#banner .contains .follow a{
+    width: 48px;
+    height:48px ;
+    border-radius:50% ;
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+    background-color: #F4F3F3;
+    color: black;
+    transition: 0.3s;
+}
+#banner .contains .follow a:hover{
+    background-color: black;
+    color: white;
+}
+/* banner bar end */
+
+/* about bar start */
+#about{
+    background-image: url(../images/Rectangle\ 49.png);
+}
+#about .aboutcnt{
+    padding:78px 0 0 60px;
+}
+#about .aboutcnt p{
+    padding: 26px 0 45px;
+}
+
+#about .aboutcnt a{
+    margin-top: 45px;
+    padding: 17px 44px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: #353535;
+    transition: 0.5s;
+}
+#about .aboutcnt a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* about bar end */
+
+/* common footer start */
+footer{
+    background-image: url(../images/Group\ 215.png);
+}
+
+footer .sandicon a{
+    background-color: #FFCC00;
+    padding: 16px 0px 15px 32px;
+    border-radius: 16px;
+    color: #ffff;
+}
+footer .sandicon a i{
+    padding: 5px 33px 5px 11px;
+}
+
+footer .container{
+    padding-top: 71px;
+    
+}
+
+footer .icons a {
+    width: 48px;
+    height:48px ;
+    border-radius:50% ;
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+    background-color: #484848;
+    color: #fff;
+    transition: 0.3s;
+    
+    
+}
+
+footer .icons a:hover{
+    background-color: #FFCC00;
+}
+
+footer .second-row{
+    padding: 94px 0 84px;
+}
+/* common footer end */
+
+
+
+
+
+
+
+
+
+
+
+
